@@ -13,4 +13,7 @@ controllers(app);
 app.listen(config.port, function () {
     console.log(`Listening http://localhost:${config.port}`);
     console.log('Cambio realizado en la rama aplicacionesvirtual');
+    console.log('Cambio realizado en la rama aplicacionesvirtual');
+    console.log('Cambio realizado en la rama aplicacionesvirtual');
+    console.log('clase 2');
 });
