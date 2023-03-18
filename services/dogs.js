@@ -21,7 +21,6 @@ class DogsService {
   }
 
   async getFavoriteDog(email) {
-    console.log(email);
     const dog = await this.mongoDB.getFavoriteDogByEmailUser(this.collection, email);
     return dog || {};
   }
