@@ -8,7 +8,6 @@ class UserService {
   }
 
   async getUser(id) {
-    console.log(id);
       const user = await this.mongoDB.getUser(this.collection, id);
       return user || {};
   }
